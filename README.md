@@ -10,6 +10,14 @@ The aim of this project is to make it a CDN package among other things for my ot
 
 ### Via CDN 
 
+**jsdelivr.net**
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Sudo-Ivan/ren-micron-parser@main/dist/ren-micron-parser.min.js"></script>
+```
+
+**Statically.io**
+
+```html
+<script src="https://cdn.statically.io/gh/Sudo-Ivan/ren-micron-parser/main/dist/ren-micron-parser.min.js"></script>
 ```
