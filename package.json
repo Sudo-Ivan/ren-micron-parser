@@ -1,0 +1,23 @@
+{
+  "name": "ren-micron-parser",
+  "version": "1.0.0",
+  "description": "A JavaScript parser for Micron markdown format",
+  "main": "dist/micron-parser.js",
+  "module": "src/MicronParser.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "minify": "terser dist/ren-micron-parser.js -o dist/ren-micron-parser.min.js"
+  },
+  "keywords": ["markdown", "parser", "micron", "nomadnet"],
+  "author": "Sudo-Ivan",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^2.79.1",
+    "terser": "^5.16.1"
+  }
+} 
