@@ -710,5 +710,3 @@ class MicronParser {
     }
 
 }
-
-export default MicronParser;
